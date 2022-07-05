@@ -1,6 +1,8 @@
 node_modules
 package-lock.json
 .temp
+git.md
+interfaz_usuario.md
 
 # Eleventy
 _dist

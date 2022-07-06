@@ -1,0 +1,51 @@
+
+Que es el ciclo for?
+
+El ciclo for es una funcion predeterminada en javascript  (y en varios otros lenguajes ), que en vase a los argumentos que le pasamos, nos permite repetir 
+una accion un determinado numero de veces hasta que se cumpla la condicion. 
+
+La sintaxis del ciclo for es muy especifica. se comienza con la palabra reservada for.
+Luego se abren los parentesis para agregar los argumentos. Lleva 3 argumentos en el primero se especifica una variable
+que por convencion se usa la letra "i" aunque puede ponerse el nombre que uno quiera( tomando en cuenta las reglas de las variables )
+Esta variable se inicializa normalmente en 0, pero eso depende de lo que necesite tu programa. Despues se establece la condicion 
+en la cual se indica el numero de veces que se repetira el codigo.
+Luego en el tercer parametro describimos como ira avanzando el codigo puede ser sumando, restando etc. Para darle una salida a la funcion.
+
+Por ejemplo si queremos que la computadora escribla los numeros de 100 a 1.
+
+for( let i = 100; i >= 0; i--){
+	
+	console.log(i);
+}
+
+Los operadores logicos ayudan a decidir si algo es falso o verdadero, tenemos los operadores &&(se llama and en espanol seria y), ||(Se llama or en espanol es O)
+y el operador !(Que representa Not o en espanol NO).
+
+Estos operadores evaluan o comparan varios argumentos y la logica es asi:
+
+El oprador &&: Para que devuelva true todos los argumentos deben ser verdaderos. Si alguno de ellos es falso entonces devolvera false. 
+Por ejemplo.
+5 + 5 === 10 && 20 - 10 === 10  esto seria igual a true
+
+5 - 5 === 10 && 20 - 10 === 10  esto seria igual a false
+
+El operador ||: Para que devuelva true almenos uno de los argumentos debe ser verdadero asi:
+
+4 - 2 === 3 || 5 - 7 === 2      esto devuelve true
+4 - 2 === 3 || 5 - 7 === 1      esto devuelve false
+
+El operador !: Este operador indica que algo es negativo o no existe. Por ejemplo.
+
+let a = 5;
+let b = '5';
+a != b (esto se leeria como a no es igaul a b) por lo que devulve un true ya que a es igual al numero 5 y b es igual a un string 5)
+
+
+
+
+
+
+
+
+
+
